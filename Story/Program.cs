@@ -8,29 +8,29 @@ if (dir == "right" || dir =="r")
     Console.WriteLine("You continue walking and suddenly a house appears. Do you enter the house?. Yes or no");
     string wasd = Console.ReadLine().ToLower();
 
-    if (wasd == "yes" || wasd == "y");
+    if (wasd == "yes" || wasd == "y")
     {
     Console.WriteLine("You open the dorr to the house, you get struck in the head from behind and gets captured.\nGAME OVER");
     }
 
-    else if (wasd == "no" || wasd == "n");
+    else if (wasd == "no" || wasd == "n")
     {
-    Console.WriteLine("You follow the dark path and suddenly you see the light trough the trees and you arrive to your destination.");
-    Console.WriteLine("YOU WIN");
+    Console.WriteLine("You follow the dark path and suddenly you see the light trough the trees and you arrive to your destination.\nYOU WIN");
+    Console.WriteLine("Press enter to close the game.");
     }
 
     else
     {
-        Console.WriteLine("");
+        Console.WriteLine("Invalid response, press enter to close the window.");
     }
 }
 else if (dir == "left" || dir == "l")
 {
-    Console.WriteLine("You countinue on the dark path. A tree branch suddenly breaks and crushes you. GAME OVER");
+    Console.WriteLine("You countinue on the dark path. A tree branch suddenly breaks and crushes you.\nGAME OVER");
 }
 else
 {
-    Console.WriteLine("Please choose a valid direction.");
+    Console.WriteLine("Invalid direction, press enter to close the window.");
 }
 
 
